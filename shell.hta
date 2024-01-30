@@ -1,0 +1,36 @@
+<head>
+<title>SplashScreen</title>
+<HTA:APPLICATION ID="oHTA"
+  APPLICATIONNAME="notouch"
+  SCROLL="no"
+  SINGLEINSTANCE="yes"
+  WINDOWSTATE="maximise"
+    MAXIMIZEBUTTON="no"
+  MINIMIZEBUTTON="no"
+        border="none"
+        innerborder="no"
+>
+<style type="text/css">
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+    .no-cursor { cursor: none; }
+}
+</style>
+</head>
+
+<script language="VBScript">
+  Sub Window_onLoad
+    window.resizeTo 1920,1080
+    window.moveTo 0,0
+
+  End Sub
+</script>
+
+<body>
+<p><img id='splash' src='shell.jpg'></p>
+<!-- <p><img id='splash' src='shell.png'></p>
+<p><img id='splash' src='shell.bmp'></p>
+ -->
+</body>
